@@ -30,6 +30,12 @@
             <artifactId>template-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.ryan.integration</groupId>
+            <artifactId>template-integration</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

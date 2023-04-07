@@ -29,6 +29,6 @@ public interface Command<Entity> {
     /**
      * 执行指令
      */
-    void execute(Entity entity);
+    void execute(Entity entity, CommandChain chain);
 
 }
