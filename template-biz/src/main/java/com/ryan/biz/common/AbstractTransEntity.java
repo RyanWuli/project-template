@@ -12,9 +12,4 @@ public class AbstractTransEntity implements Serializable {
 
     private static final long serialVersionUID = -3808530589583061971L;
 
-    private Long id;
-    private String createUser;
-    private Date createDate;
-    private String modifyUser;
-    private Date modifyDate;
 }
